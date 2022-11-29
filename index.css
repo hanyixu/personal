@@ -1,4 +1,4 @@
-.name, .job, hr, .personal, .email, .ppic, .newhouse, .more, footer, .socialmedia, .ppic2 {
+.name, .job, hr, .personal2, .block1, .email, .ppic, .newhouse, .more, footer, .socialmedia, .ppic2 {
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -47,13 +47,17 @@ a:hover {
 }
 
 .personal {
-    display: flex;
-
+    order: 2;
 }
 
 .ppic {
+    order: 1;
+}
+
+.block1{
     display: flex;
-    float: right;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .school {
@@ -73,4 +77,8 @@ a:hover {
 .ppic2{
     display: flex;
     justify-content: center;
+}
+
+.foot{
+    color: #9d9d9d;
 }
