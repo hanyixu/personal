@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
 .name, .job, hr, .personal2, .block1, .email, .ppic, .newhouse, .more, footer, .socialmedia, .ppic2 {
     margin-left: 200px;
     margin-right: 200px;
 }
 
 body {
-    background-color: #ece8e8
+    background-color: #ece8e8;
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 /*p, a, h1 {*/
@@ -82,3 +85,4 @@ a:hover {
 .foot{
     color: #9d9d9d;
 }
+
