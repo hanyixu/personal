@@ -97,7 +97,7 @@ i {
 
 
 #email {
-    color: #777777;
+    color: #2c2c2c;
 }
 
 #email:hover {
@@ -105,11 +105,14 @@ i {
 }
 
 #pronoun {
-    color: #b0aaaa;
+    color: #2c2c2c;
     margin-left: 40px;
     line-height: 2px;
 }
 
+.hidden{
+    display: none;
+}
 
 @media only screen and (max-width: 700px) {
     nav div {
