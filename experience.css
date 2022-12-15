@@ -33,13 +33,6 @@ h1{
     text-decoration:none
 }
 
-.bold-header{
-    font-family: 'Montserrat', sans-serif;
-}
-
-.bold-header p{
-    margin: 30px 30px 30px 40px;
-}
 
 .layout {
     width: auto;
@@ -55,18 +48,23 @@ h1{
     margin-left: 10px;
 }
 
-.header { grid-area: header; }
+.header { grid-area: header;
+    margin-left:40px;
+}
 .sidebar { grid-area: sidebar; }
 .body { grid-area: body; }
 .footer {grid-area: footer;
-margin-left: 140px;}
+margin-left: 40px;}
 
 
 
 
 
 
-
+h1, p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}
 
 
 

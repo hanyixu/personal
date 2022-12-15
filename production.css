@@ -99,3 +99,8 @@ div.desc {
     display: table;
     clear: both;
 }
+
+h1, p, li{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}
