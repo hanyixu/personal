@@ -16,12 +16,12 @@ nav div {
 
 .unselected{
     color: #000000;
-    text-decoration:none
+    text-decoration:none;
 }
 
 .unselected:hover{
     color: #9d9d9d;
-    text-decoration:none
+    text-decoration:none;
 }
 
 body{

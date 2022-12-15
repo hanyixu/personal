@@ -65,7 +65,7 @@ h1, p, li, a{
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     line-height: 30px;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:hover{
