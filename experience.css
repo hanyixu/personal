@@ -13,9 +13,9 @@ body{
     background-color: #eeeeee;
 }
 
-h1{
-    margin-left: 40px;
+h1 {
     font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .selected{
@@ -61,17 +61,21 @@ margin-left: 40px;}
 
 
 
-h1, p{
+h1, p, li, a{
+    color: #000000;
     font-family: 'Montserrat', sans-serif;
     line-height: 30px;
+    text-decoration: none
+}
+
+a:hover{
+    color: #cccccc;
 }
 
 
-
-
-
-
-
+.exp-1{
+    border-style: groove;
+}
 
 
 
