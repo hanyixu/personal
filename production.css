@@ -9,43 +9,38 @@ nav div {
     font-weight: bold;
 }
 
-.selected{
+.selected {
     color: #000000;
     text-decoration: underline;
 }
 
-.unselected{
+.unselected {
     color: #000000;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-.unselected:hover{
+.unselected:hover {
     color: #9d9d9d;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-body{
+body {
     background-color: #eeeeee;
 }
 
-h1{
+h1 {
     margin-left: 40px;
     font-size: 50px;
 }
 
-p, ul{
+p, ul {
     margin: 40px;
     font-family: 'Open Sans', sans-serif;
 }
 
-ul{
+ul {
     list-style-type: circle;
 }
-
-
-
-
-
 
 
 div.gallery {
@@ -83,7 +78,8 @@ div.desc {
         width: 49.99999%;
         margin: 6px 0;
     }
-    nav div{
+
+    nav div {
         justify-content: center;
     }
 }
@@ -100,11 +96,11 @@ div.desc {
     clear: both;
 }
 
-h1, p, li{
+h1, p, li {
     font-family: 'Montserrat', sans-serif;
     line-height: 30px;
 }
 
-footer{
+footer {
     margin-left: 40px;
 }

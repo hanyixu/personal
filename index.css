@@ -110,7 +110,7 @@ i {
     line-height: 2px;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
@@ -125,6 +125,10 @@ i {
 
     .personal-pic img {
         margin-right: auto;
+    }
+
+    #bio-pic-2 {
+        display: none;
     }
 }
 
