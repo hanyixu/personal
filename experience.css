@@ -83,6 +83,16 @@ a:hover {
     border-style: groove;
 }
 
+#nh-pic {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+}
+
+#nh-pic:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
 
 @media only screen and (max-width: 700px) {
     .sidebar {
