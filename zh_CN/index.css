@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+nav div {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+
+.selected {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.unselected {
+    color: #000000;
+    text-decoration: none
+}
+
+.unselected:hover {
+    color: #9d9d9d;
+    text-decoration: none
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}
+
+h1 {
+    margin-left: 40px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.personal-pic img {
+    display: block;
+    margin-left: auto;
+    margin-right: 100px;
+    height: 300px;
+}
+
+
+
+.layout {
+    width: auto;
+    height: auto;
+
+    display: grid;
+    grid:
+    "header header header" auto
+    "intro intro personal-pic" auto
+    "body body body" auto
+    "footer footer footer" auto
+    / 1fr 1fr 1fr;
+    gap: 8px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.intro {
+    grid-area: intro;
+}
+
+.personal-pic {
+    grid-area: personal-pic;
+}
+
+.body {
+    grid-area: body;
+}
+
+
+i {
+    margin: 10px;
+}
+
+.footer {
+    grid-area: footer;
+    margin: 30px;
+}
+
+#bio-pic-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+
+#email {
+    color: #2c2c2c;
+}
+
+#email:hover {
+    color: #cccccc;
+}
+
+#pronoun {
+    color: #2c2c2c;
+    margin-left: 40px;
+    line-height: 2px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    nav div {
+        justify-content: center;
+    }
+
+    .layout {
+        margin: 10px;
+    }
+
+    .personal-pic img {
+        margin-right: auto;
+    }
+
+    .personal-pic img {
+        height: 200px;
+    }
+
+    #bio-pic-2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+}
