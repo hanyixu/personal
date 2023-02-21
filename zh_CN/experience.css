@@ -78,6 +78,9 @@ a:hover {
     color: #cccccc;
 }
 
+#RA-pic {
+    width: 35%;
+}
 
 .exp-1 {
     border-style: groove;
