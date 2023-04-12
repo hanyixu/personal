@@ -46,6 +46,7 @@ h1 {
     / auto 1fr;
     gap: 30px;
     margin-left: 10px;
+    margin-right: 100px;
 }
 
 .header {
