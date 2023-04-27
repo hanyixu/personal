@@ -82,6 +82,11 @@ div.desc {
     nav div {
         justify-content: center;
     }
+    iframe {
+        margin: 6px;
+        width: auto;
+        height: auto;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -102,5 +107,9 @@ h1, p, li {
 }
 
 footer {
+    margin-left: 40px;
+}
+
+iframe {
     margin-left: 40px;
 }
