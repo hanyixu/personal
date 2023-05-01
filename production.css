@@ -97,6 +97,12 @@ div.desc {
         width: auto;
         height: auto;
     }
+    .velveeta {
+        flex-direction: column;
+    }
+    .velveeta img{
+        max-width: 100%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -122,4 +128,19 @@ footer {
 
 iframe {
     margin-left: 40px;
+}
+
+.velveeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.velveeta img {
+    margin: 10px;
+    max-width: 30%;
+    height: auto;
+}
+
+hr {
+    margin: 40px;
 }
