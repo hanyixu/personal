@@ -101,7 +101,7 @@ div.desc {
         flex-direction: column;
     }
     .velveeta img{
-        max-width: 100%;
+        max-width: 30%;
     }
 }
 
