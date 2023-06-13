@@ -117,6 +117,12 @@ i {
     display: none;
 }
 
+#ningbo-pic{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
 @media only screen and (max-width: 700px) {
     nav div {
         justify-content: center;
@@ -136,6 +142,9 @@ i {
 
     #bio-pic-2 {
         display: none;
+    }
+    #ningbo-pic{
+        width: 75%;
     }
 }
 
