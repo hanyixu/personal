@@ -75,6 +75,9 @@ h1, p, li, a {
     text-decoration: none;
 }
 
+a {
+    text-decoration: underline;
+}
 a:hover {
     color: #cccccc;
 }
