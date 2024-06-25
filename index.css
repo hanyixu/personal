@@ -134,6 +134,7 @@ i {
 
     .personal-pic img {
         margin-right: auto;
+        display: none;
     }
 
     .personal-pic img {
