@@ -1,4 +1,4 @@
-/* version: Jan 19 2025 1:58AM by Hanyi Xu */
+/* version: Jan 19 2025 4:24PM by Hanyi Xu */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
 
@@ -35,7 +35,7 @@ h1 {
 
 .pronouns {
     color: #666;
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 1.5rem 0; /* Increased bottom margin from 0.5rem to 1.5rem */
     font-size: 0.9rem;
 }
 
@@ -88,6 +88,7 @@ h1 {
     color: #666;
 }
 
+.instagram-container,
 .wechat-container {
     position: relative;
     cursor: pointer;
@@ -96,10 +97,12 @@ h1 {
     transition: color 0.3s ease;
 }
 
+.instagram-container:hover,
 .wechat-container:hover {
     color: #666;
 }
 
+.preview-image,
 .qr-code {
     position: absolute;
     bottom: 100%;
@@ -113,16 +116,19 @@ h1 {
     margin-bottom: 10px;
 }
 
+.preview-image img,
 .qr-code img {
     width: 150px;
     height: 150px;
     display: block;
 }
 
+.instagram-container:hover .preview-image,
 .wechat-container:hover .qr-code {
     display: block;
 }
 
+.preview-image::after,
 .qr-code::after {
     content: '';
     position: absolute;
